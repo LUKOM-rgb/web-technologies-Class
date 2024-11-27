@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página Inicial</title>
+        <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="projeto.css">
+    <title>Página de Fotos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="carousel-slide">
+                <div class="carousel-item" style="background-image: url('assets/amirali-mirhashemian-eRyMytuT0yg-unsplash.jpg');"></div>
+            </div>
+            <div class="carousel-slide">
+                <div class="carousel-item" style="background-image: url('assets/grilled-fish-barbecue-with-vegetables-dip-sauce.jpg');"></div>
+            </div>
+            <div class="carousel-slide">
+                <div class="carousel-item" style="background-image: url('assets/grilled-meat-with-herbs-tomato-salt-bread-sauce-side-view.jpg');"></div>
+            </div>
+        </div>
+    </div>
+    <div class="gallery">
+        <img src="assets/abhishek-hajare-G0xaK8Lfdlg-unsplash.jpg" alt="Foto 1">
+        <img src="assets/abhishek-hajare-G0xaK8Lfdlg-unsplash.jpg" alt="Foto 2">
+        <img src="assets/abhishek-hajare-G0xaK8Lfdlg-unsplash.jpg" alt="Foto 3">
+        <img src="assets/abhishek-hajare-G0xaK8Lfdlg-unsplash.jpg" alt="Foto 4">
+        <img src="assets/abhishek-hajare-G0xaK8Lfdlg-unsplash.jpg" alt="Foto 5">
+        <img src="assets/abhishek-hajare-G0xaK8Lfdlg-unsplash.jpg" alt="Foto 6">
+        <!-- Adicione mais fotos conforme necessário -->
+    </div>
+</body>
